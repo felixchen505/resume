@@ -1,0 +1,365 @@
+.w-bg {
+  background-color:white;
+}
+
+nav {
+  font-family:tahoma !important;
+}
+
+.txt-prim-color{
+  color: #DDF1FF !important;
+}
+
+.txt-sec-color{
+  color: #AE6060 !important;
+}
+
+.nav-added:hover {
+  cursor:pointer;
+}
+
+.front-container {
+  height:25em;
+  background-color:#DDF1FF;
+  font-family:tahoma;
+}
+
+.left-container {
+  float:left;
+  width:47%;
+  margin-top:4.2em;
+}
+
+.right-container {
+  float:right;
+  width:53%;
+  margin-top:3.1em;
+}
+
+.pic-name {
+  float:right;
+  text-align:center;
+  margin-right:6em;
+}
+
+.name {
+  font-size:1.25em;
+}
+
+.status {
+  line-height: 1.2em;
+  font-size:.9em;
+  padding-bottom:0;
+  margin-bottom:3px;
+}
+
+.my-img {
+  height:150px;
+  border-radius: 50%;
+}
+
+.linkedin-img {
+}
+
+.hello-txt {
+  font-size:3em;
+}
+
+.who-i-am {
+  font-size:1.2em;
+  margin-top:-.4em;
+}
+
+.left-button {
+  float:left;
+}
+
+.btn-pdf {
+  width:10em;
+  background-color:#AE6060;
+  border-color:#AE6060;
+  border-style: none;
+  border-radius: .5em;
+  color:white;
+  height:2em;
+}
+
+.btn-pdf:hover {
+  background-color:#9F5555;
+}
+
+.btn-detailed {
+  width:10em;
+  background-color:white;
+  border-color:white;
+  border-style: none;
+  border-radius: .5em;
+  color:#AE6060;
+  height:2em;
+  margin-left:2em;
+}
+
+.btn-detailed:hover {
+  background-color:#F5F5F5;
+}
+
+.about-me {
+  width:24.5em;
+  text-align:justify;
+  font-size:.9em;
+  margin-top:1.5em;
+}
+
+.resume {
+  margin:2em 25em;
+  font-family:tahoma;
+}
+
+.title {
+  color:#AE6060;
+  font-size:1.25em;
+  margin-top:0.8em;
+}
+
+.m-title {
+  font-weight:600;
+  margin-bottom:0;
+  margin-top:0.5em;
+}
+
+.precision {
+  color:#757575;
+  margin-bottom:0.1em;
+}
+
+.description {
+  margin-bottom:0.1em;
+  text-align: justify;
+}
+
+.chevron-margins {
+  margin-bottom:.28em;
+  margin-left:1em;
+  filter: invert(48%) sepia(5%) saturate(4231%) hue-rotate(314deg) brightness(92%) contrast(87%);
+}
+
+a:hover {
+  cursor:pointer;
+}
+
+.toggle-words {
+  color:#4E4E4E !important;
+  text-decoration:none;
+  font-size:.7em;
+}
+
+.not-shown {
+  display:none;
+}
+
+.blue-link {
+  color:#40b0ff;
+}
+
+.title-div {
+  width:13em;
+  float:left;
+}
+
+.full-width {
+  width:100%;
+  margin-top:.5em;
+  margin-bottom:.5em;
+}
+
+.foot {
+  margin-left:5em;
+  margin-right:5em;
+  border-width:1px;
+  border-color:grey;
+  border-style:solid;
+  border-bottom:none;
+  border-right:none;
+  border-left:none;
+  font-family: tahoma;
+  padding-top:2em;
+  height:11em;
+}
+
+.tel-div {
+  width:35%;
+  float:left;
+}
+
+.email-div {
+  width:30%;
+  float:left;
+}
+
+.linkedin-div {
+  width:35%;
+  float:right;
+}
+
+.smaller-div-tel {
+  text-align: center;
+}
+
+.smaller-div-email {
+  text-align:center;
+}
+
+.smaller-div-linkedin {
+  text-align:center;
+}
+
+.telephone {
+  font-size:.9em;
+}
+
+.email {
+  font-size:.9em;
+}
+
+.created-by {
+  font-size:.9em;
+  text-align:center;
+  margin-top:5em;
+}
+
+.experience-div {
+  background-color:#DDF1FF;
+  width:100%;
+  font-family:tahoma;
+  padding-top:3.5em;
+  height:20em;
+}
+
+.experience-title {
+  font-size:3em;
+}
+
+.content {
+  font-family:tahoma;
+  margin:3em 25em;
+}
+
+.words-container {
+  width:50%;
+  float:left;
+}
+
+.img-container {
+  width:50%;
+  float:right;
+  padding-left:4em;
+}
+
+.annual-hackathon {
+  line-height:1.2em;
+}
+
+.words-smaller-container {
+  float:right;
+  padding-right:2em;
+  padding-top:2em;
+}
+
+.brebeufhx_speech {
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+  .front-container {
+    height:40em;
+    text-align:center;
+  }
+
+  .left-container {
+    width:100% !important;
+    position:relative;
+    margin-top:0 !important;
+    margin-right:0 !important;
+    margin-left:0;
+    padding-top:3em;
+  }
+
+  .right-container {
+    width:100% !important;
+    position:relative;
+    margin-top:0 !important;
+    margin-left:0 !important;
+    padding-top:1em;
+    padding-left:2em;
+    padding-right:2em;
+  }
+
+  .pic-name {
+    margin-right:0;
+    float:none;
+  }
+
+  .tel-div {
+    width:100%;
+  }
+
+  .email-div {
+    width:100%;
+  }
+
+  .linkedin-div {
+    width:100%;
+    padding-top:1em;
+    padding-bottom:1em;
+  }
+
+  .foot {
+    height:20em;
+  }
+
+  .left-button {
+    width:50%;
+  }
+
+  .right-button {
+    width:50%;
+    float:right;
+  }
+
+  .btn-detailed {
+    float:right;
+    margin-left:0;
+  }
+
+  .btn-pdf {
+    float:left;
+  }
+
+  .about-me {
+    width:100%;
+    margin-top:5em;
+  }
+}
+
+@media screen and (max-width:1200px) {
+    .resume {
+      margin: 2em 5em;
+    }
+
+    .content {
+      margin:2em 5em;
+    }
+}
