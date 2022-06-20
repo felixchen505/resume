@@ -110,6 +110,13 @@ nav {
   margin-top:1.5em;
 }
 
+.about-me-fr {
+  width:27.5em;
+  text-align:justify;
+  font-size:.8em;
+  margin-top:1.5em;
+}
+
 .resume {
   margin:2em 25em;
   font-family:tahoma;
@@ -162,7 +169,7 @@ a:hover {
 }
 
 .title-div {
-  width:13em;
+  width:15em;
   float:left;
 }
 
@@ -351,6 +358,19 @@ a:hover {
   .about-me {
     width:100%;
     margin-top:5em;
+  }
+
+  .about-me-fr {
+    width:100%;
+    margin-top:5em;
+  }
+
+  .break {
+    word-wrap: break-word;
+  }
+
+  .resume {
+    margin:2em 2em !important;
   }
 }
 
