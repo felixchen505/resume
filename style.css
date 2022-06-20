@@ -399,6 +399,14 @@ a:hover {
     text-align:center;
     height:30em;
   }
+
+  .btn-pdf {
+    width:7em;
+  }
+
+  .btn-detailed {
+    width:7em;
+  }
 }
 
 @media screen and (max-width:1200px) {
