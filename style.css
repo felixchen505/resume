@@ -2,8 +2,8 @@
   background-color:white;
 }
 
-nav {
-  font-family:tahoma !important;
+body {
+  font-family:tahoma;
 }
 
 .txt-prim-color{
@@ -21,7 +21,6 @@ nav {
 .front-container {
   height:25em;
   background-color:#DDF1FF;
-  font-family:tahoma;
 }
 
 .left-container {
@@ -119,7 +118,6 @@ nav {
 
 .resume {
   margin:2em 25em;
-  font-family:tahoma;
 }
 
 .title {
@@ -188,7 +186,6 @@ a:hover {
   border-bottom:none;
   border-right:none;
   border-left:none;
-  font-family: tahoma;
   padding-top:2em;
   height:13em;
 }
@@ -237,7 +234,6 @@ a:hover {
 .experience-div {
   background-color:#DDF1FF;
   width:100%;
-  font-family:tahoma;
   padding-top:3.5em;
   height:20em;
 }
@@ -247,7 +243,6 @@ a:hover {
 }
 
 .content {
-  font-family:tahoma;
   margin:3em 25em;
 }
 
@@ -290,6 +285,11 @@ a:hover {
 
 
 @media screen and (max-width:700px) {
+
+  body {
+    font-family: arial !important;
+  }
+
   .front-container {
     height:40em;
     text-align:center;
@@ -406,6 +406,18 @@ a:hover {
 
   .btn-detailed {
     width:7em;
+  }
+
+  .title {
+    font-size: 1.05em;
+  }
+
+  .title-div {
+    width:12em;
+  }
+
+  .toggle-words {
+    font-size: .5em;
   }
 }
 
