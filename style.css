@@ -372,6 +372,33 @@ a:hover {
   .resume {
     margin:2em 2em !important;
   }
+
+  .words-container {
+    width:100%;
+    text-align: center;
+    float:none;
+    margin-top:1.5em;
+  }
+
+  .words-smaller-container {
+    padding:0;
+    float:none;
+  }
+
+  .annual-hackathon {
+    text-align:center;
+  }
+
+  .img-container {
+    width:100%;
+    float:none;
+    padding:0;
+  }
+
+  .experience-div {
+    text-align:center;
+    height:30em;
+  }
 }
 
 @media screen and (max-width:1200px) {
