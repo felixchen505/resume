@@ -12,7 +12,7 @@ Ce programme contient 6 documents HTML:
 Le style se trouve dans style.css (Bootstrap a aussi été utilisé pour simplifier la programmation)
 
 ## Accéder au site web
-Français: https://felixchen505.github.io/resume/
+Français: https://felixchen505.github.io/resume/  
 Anglais: https://felixchen505.github.io/resume/home.html
 
 ## Crédit
@@ -32,7 +32,7 @@ This program has 6 HTML documents:
 - documents.html: examples of formatted documents (en)
 
 ## Access the website
-French: https://felixchen505.github.io/resume/
+French: https://felixchen505.github.io/resume/  
 English: https://felixchen505.github.io/resume/home.html
 
 ## Credit
